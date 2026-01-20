@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { Todo } from './test/Test';
 
 
 type Todo = {
@@ -107,6 +108,8 @@ function App() {
         })}
       </ul>
     </div>
+
+    <Todo />
     </>
 )
 }
